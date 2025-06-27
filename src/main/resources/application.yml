@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: loKal
+
+  # DB 없이 실행하기 위한 자동 설정 제외
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
