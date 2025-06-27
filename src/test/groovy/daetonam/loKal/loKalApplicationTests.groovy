@@ -1,10 +1,10 @@
-package daetonam.konnect
+package daetonam.loKal
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class KonnectApplicationTests {
+class loKalApplicationTests {
 
     @Test
     void contextLoads() {

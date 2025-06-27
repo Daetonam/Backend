@@ -1,13 +1,14 @@
-package daetonam.konnect
+package daetonam.loKal
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
 
 @SpringBootApplication
-class KonnectApplication {
+class loKalApplication {
 
     static void main(String[] args) {
-        SpringApplication.run(KonnectApplication, args)
+        SpringApplication.run(loKalApplication, args)
     }
 
 }
